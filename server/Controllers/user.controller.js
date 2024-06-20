@@ -13,7 +13,7 @@ const secret = process.env.SECRET_KEY
 
 // }
 
-const listOfStudent =(req,res)=>{
+const listOfStudent = (req, res) => {
     res.send(
         [
             {
